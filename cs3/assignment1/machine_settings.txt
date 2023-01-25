@@ -1,0 +1,18 @@
+2 runs.
+The first time the machine configures to grow by 5cm^3. The second time the machine configures to grow by 1cm^3
+First time: [6,6,5] Second time:[6,6,6]
+8, need more information about the setting
+
+Bonus Question: 
+while(largest != smallest){
+	if(((largest - smallest) / 5) != 0){
+		count+= ((largest - smallest) % 5)
+		configures to grow by 2cm^3 by ((largest - smallest) % 5) times
+	}else if(((largest - smallest) / 2) != 0){
+		count+= ((largest - smallest) % 2)
+		configures to grow by 2cm^3 by ((largest - smallest) % 2) times
+	}else{
+		count+= ((largest - smallest) % 1)
+		configures to grow by 2cm^3 by ((largest - smallest) % 1) times
+	}
+}
